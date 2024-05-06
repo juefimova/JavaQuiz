@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.ResultController">
+   <children>
+      <Button fx:id="btnClose" alignment="CENTER" layoutX="452.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#closeResultWindow" prefHeight="39.0" prefWidth="124.0" text="Close" textAlignment="CENTER" />
+      <Label fx:id="lbResult" alignment="CENTER" layoutX="109.0" layoutY="113.0" prefHeight="107.0" prefWidth="384.0" style="-fx-background-color: purple; -fx-text-fill: white;" text="Label" textAlignment="CENTER">
+
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>

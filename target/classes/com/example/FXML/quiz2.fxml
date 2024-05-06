@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.QuizController">
+   <children>
+      <Button fx:id="btnAnswer" layoutX="477.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#btnAnswer" prefHeight="48.0" prefWidth="103.0" style="-fx-background-color: #8cfbff;" text="Answer" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Circle id="c1" fx:id="c1" fill="#8cfbff" layoutX="34.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c2" fx:id="c2" fill="#8cfbff" layoutX="82.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c3" fx:id="c3" fill="#8cfbff" layoutX="130.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c4" fx:id="c4" fill="#8cfbff" layoutX="178.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c5" fx:id="c5" fill="#8cfbff" layoutX="226.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c6" fx:id="c6" fill="#8cfbff" layoutX="274.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c7" fx:id="c7" fill="#8cfbff" layoutX="322.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c8" fx:id="c8" fill="#8cfbff" layoutX="370.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c9" fx:id="c9" fill="#8cfbff" layoutX="418.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c10" fx:id="c10" fill="#8cfbff" layoutX="466.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c11" fx:id="c11" fill="#8cfbff" layoutX="514.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+      <Circle id="c12" fx:id="c12" fill="#8cfbff" layoutX="562.0" layoutY="97.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="4.0" />
+
+
+
+      <Text fill="WHITE" layoutX="27.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="75.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="123.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="171.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="219.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="267.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="315.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="363.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="411.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="452.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="500.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="547.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="headline" fill="WHITE" layoutX="27.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0"  wrappingWidth="153.22314453125" >
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Question" alignment="TOP_LEFT" layoutX="14.0" layoutY="141.0" prefHeight="189.0" prefWidth="552.0"  style="-fx-background-color: #8cfbff;" >
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </TextField>
+
+
+   <RadioButton fx:id="rBtn1" layoutX="47.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#rBtn1Clicked" toggleGroup="$ChoiceAnswer"
+      >
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      <toggleGroup>
+         <ToggleGroup fx:id="ChoiceAnswer" />
+      </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rBtn2" layoutX="46.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#rBtn2Clicked"  toggleGroup="$ChoiceAnswer"
+      >
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rBtn3" layoutX="48.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#rBtn3Clicked" toggleGroup="$ChoiceAnswer"
+      >
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rBtn4" layoutX="46.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#rBtn4Clicked" toggleGroup="$ChoiceAnswer"
+      >
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>
