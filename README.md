@@ -22,7 +22,7 @@ Java Quiz is a quiz application designed to test your knowledge of Java programm
 
 1. Clone the repository to your local machine:
 
-- git clone https://github.com/yourusername/java-quiz.git
+- git clone
 
 2. Open the project in IntelliJ IDEA.
 
