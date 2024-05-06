@@ -38,6 +38,10 @@ Java Quiz is a quiz application designed to test your knowledge of Java programm
 
 4. Enjoy and have fun testing your Java knowledge!
 
+## Credits
+
+This game was created by Yuliya Yafimava.
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas for improvements or new features, 
